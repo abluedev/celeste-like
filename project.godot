@@ -10,17 +10,18 @@ config_version=5
 
 [application]
 
-config/name="celeste-like"
-run/main_scene="res://root.tscn"
+config/name="Project Nubia"
+config/description="Celeste like game"
+run/main_scene="res://scenes/1A.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
 
 [display]
 
-window/size/viewport_width=800
-window/size/viewport_height=600
+window/size/viewport_width=1280
+window/size/viewport_height=720
 window/stretch/mode="viewport"
-window/stretch/aspect="expand"
+window/stretch/scale_mode="integer"
 
 [input]
 
